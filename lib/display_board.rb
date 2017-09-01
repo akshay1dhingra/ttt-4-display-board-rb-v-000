@@ -10,10 +10,10 @@ def display_board(main_board)
 end
 
 # MAIN UNIVERSE
-puts "Turn 1 places X in the center position"
+puts "Turn 1"
 board = [" "," "," "," ","X"," "," "," "," "]
 display_board(board) #variable in line 14 is now placed as the argument in line 15. This sends the data from the outside MAIN UNIVERSE into the main_board DISPLAY BOARD UNIVERSE
 
-puts "Turn 2 places O in the top left position"
+puts "Turn 2"
 board = ["O"," "," "," ","X"," "," "," "," "]
 display_board(board)
